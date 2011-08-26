@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LayersAppDelegate : NSObject <UIApplicationDelegate> {
+@interface LayersAppDelegate : NSObject <UIApplicationDelegate> 
+{
 
 }
 

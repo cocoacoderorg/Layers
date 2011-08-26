@@ -14,8 +14,45 @@
 		E60ACF8B13242C6700884751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACF8A13242C6700884751 /* main.m */; };
 		E60ACF8E13242C6700884751 /* LayersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACF8D13242C6700884751 /* LayersAppDelegate.m */; };
 		E60ACF9113242C6700884751 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60ACF8F13242C6700884751 /* MainWindow.xib */; };
-		E60ACF9413242C6700884751 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACF9313242C6700884751 /* RootViewController.m */; };
-		E60ACF9713242C6700884751 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60ACF9513242C6700884751 /* RootViewController.xib */; };
+		E60ACF9413242C6700884751 /* LayersRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACF9313242C6700884751 /* LayersRootViewController.m */; };
+		E60ACF9713242C6700884751 /* LayersRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60ACF9513242C6700884751 /* LayersRootViewController.xib */; };
+		E60ACFEE1324380500884751 /* boys_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFE71324380500884751 /* boys_frame.png */; };
+		E60ACFEF1324380500884751 /* boys_frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFE81324380500884751 /* boys_frame@2x.png */; };
+		E60ACFF01324380500884751 /* LayerFunViewController6.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFE91324380500884751 /* LayerFunViewController6.xib */; };
+		E60ACFF11324380500884751 /* Steve.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFEA1324380500884751 /* Steve.png */; };
+		E60ACFF21324380500884751 /* Steve@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFEB1324380500884751 /* Steve@2x.png */; };
+		E60ACFF31324380500884751 /* TV_Test_Pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFEC1324380500884751 /* TV_Test_Pattern.png */; };
+		E60ACFF41324380500884751 /* TV_Test_Pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACFED1324380500884751 /* TV_Test_Pattern@2x.png */; };
+		E60ACFF81324384600884751 /* LayerFunViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACFF71324384600884751 /* LayerFunViewController6.m */; };
+		E60ACFFE13243B0900884751 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60ACFF913243B0800884751 /* AVFoundation.framework */; };
+		E60ACFFF13243B0900884751 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60ACFFB13243B0800884751 /* CoreMedia.framework */; };
+		E60AD00013243B0900884751 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60ACFFC13243B0800884751 /* CoreVideo.framework */; };
+		E60AD00113243B0900884751 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60ACFFD13243B0900884751 /* QuartzCore.framework */; };
+		E60AD0261324A3AE00884751 /* LayerLessonsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0241324A3AD00884751 /* LayerLessonsTableViewCell.xib */; };
+		E60AD03D1324C0F100884751 /* LayerFunViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = E60AD03B1324C0F100884751 /* LayerFunViewController1.m */; };
+		E60AD03E1324C0F100884751 /* LayerFunViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60AD03C1324C0F100884751 /* LayerFunViewController1.xib */; };
+		E60AD0421324C49500884751 /* LayerFunViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E60AD0401324C49500884751 /* LayerFunViewController2.m */; };
+		E60AD0431324C49500884751 /* LayerFunViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0411324C49500884751 /* LayerFunViewController2.xib */; };
+		E60AD0461324C7DC00884751 /* LayerFunViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = E60AD0451324C7DC00884751 /* LayerFunViewController3.m */; };
+		E60AD0481324C7E600884751 /* LayerFunViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0471324C7E600884751 /* LayerFunViewController3.xib */; };
+		E60AD04D1324C92900884751 /* LayerFunViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = E60AD04A1324C92800884751 /* LayerFunViewController4.m */; };
+		E60AD04E1324C92900884751 /* LayerFunViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = E60AD04C1324C92800884751 /* LayerFunViewController5.m */; };
+		E60AD0511324C93600884751 /* LayerFunViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60AD04F1324C93600884751 /* LayerFunViewController4.xib */; };
+		E60AD0521324C93600884751 /* LayerFunViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0501324C93600884751 /* LayerFunViewController5.xib */; };
+		E60AD0591324CC2800884751 /* hi_perspective_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0531324CC2800884751 /* hi_perspective_icon.png */; };
+		E60AD05A1324CC2800884751 /* large_picture_distance_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0541324CC2800884751 /* large_picture_distance_icon.png */; };
+		E60AD05B1324CC2800884751 /* low_perspective_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0551324CC2800884751 /* low_perspective_icon.png */; };
+		E60AD05C1324CC2800884751 /* small_picture_distance_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0561324CC2800884751 /* small_picture_distance_icon.png */; };
+		E60AD05D1324CC2800884751 /* 45_angle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0571324CC2800884751 /* 45_angle_icon.png */; };
+		E60AD05E1324CC2800884751 /* vertical_angle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0581324CC2800884751 /* vertical_angle_icon.png */; };
+		E60AD0601324D26200884751 /* LayerFun_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD05F1324D26200884751 /* LayerFun_Icon.png */; };
+		E60AD0621324D26B00884751 /* LayerFun_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0611324D26A00884751 /* LayerFun_Icon@2x.png */; };
+		E60AD0641324D27600884751 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0631324D27500884751 /* Default@2x.png */; };
+		E60AD0681324D37800884751 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E60AD0671324D37800884751 /* Default.png */; };
+		E6B04EBE1354197D0043F539 /* Layers.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B04EBC1354197D0043F539 /* Layers.png */; };
+		E6B04EBF1354197D0043F539 /* Layers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B04EBD1354197D0043F539 /* Layers@2x.png */; };
+		E6E6AA161324EE40009BFC97 /* LayerFun_Instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E6AA141324EE40009BFC97 /* LayerFun_Instructions.png */; };
+		E6E6AA171324EE40009BFC97 /* LayerFun_Instructions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E6AA151324EE40009BFC97 /* LayerFun_Instructions@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +60,60 @@
 		E60ACF7D13242C6700884751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E60ACF7F13242C6700884751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E60ACF8113242C6700884751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E60ACF8513242C6700884751 /* Layers-Info.plist */ = {isa = PBXFileReference; path = "Layers-Info.plist"; sourceTree = "<group>"; };
+		E60ACF8513242C6700884751 /* Layers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Layers-Info.plist"; sourceTree = "<group>"; };
 		E60ACF8713242C6700884751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E60ACF8913242C6700884751 /* Layers-Prefix.pch */ = {isa = PBXFileReference; path = "Layers-Prefix.pch"; sourceTree = "<group>"; };
+		E60ACF8913242C6700884751 /* Layers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Layers-Prefix.pch"; sourceTree = "<group>"; };
 		E60ACF8A13242C6700884751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E60ACF8C13242C6700884751 /* LayersAppDelegate.h */ = {isa = PBXFileReference; path = LayersAppDelegate.h; sourceTree = "<group>"; };
+		E60ACF8C13242C6700884751 /* LayersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayersAppDelegate.h; sourceTree = "<group>"; };
 		E60ACF8D13242C6700884751 /* LayersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayersAppDelegate.m; sourceTree = "<group>"; };
 		E60ACF9013242C6700884751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E60ACF9213242C6700884751 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
-		E60ACF9313242C6700884751 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E60ACF9613242C6700884751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E60ACF9213242C6700884751 /* LayersRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayersRootViewController.h; sourceTree = "<group>"; };
+		E60ACF9313242C6700884751 /* LayersRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayersRootViewController.m; sourceTree = "<group>"; };
+		E60ACF9613242C6700884751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LayersRootViewController.xib; sourceTree = "<group>"; };
+		E60ACFE71324380500884751 /* boys_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boys_frame.png; sourceTree = "<group>"; };
+		E60ACFE81324380500884751 /* boys_frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boys_frame@2x.png"; sourceTree = "<group>"; };
+		E60ACFE91324380500884751 /* LayerFunViewController6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerFunViewController6.xib; sourceTree = "<group>"; };
+		E60ACFEA1324380500884751 /* Steve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steve.png; sourceTree = "<group>"; };
+		E60ACFEB1324380500884751 /* Steve@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steve@2x.png"; sourceTree = "<group>"; };
+		E60ACFEC1324380500884751 /* TV_Test_Pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TV_Test_Pattern.png; sourceTree = "<group>"; };
+		E60ACFED1324380500884751 /* TV_Test_Pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TV_Test_Pattern@2x.png"; sourceTree = "<group>"; };
+		E60ACFF61324384600884751 /* LayerFunViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController6.h; sourceTree = "<group>"; };
+		E60ACFF71324384600884751 /* LayerFunViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController6.m; sourceTree = "<group>"; };
+		E60ACFF913243B0800884751 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E60ACFFA13243B0800884751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E60ACFFB13243B0800884751 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E60ACFFC13243B0800884751 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E60ACFFD13243B0900884751 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E60AD0241324A3AD00884751 /* LayerLessonsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerLessonsTableViewCell.xib; sourceTree = "<group>"; };
+		E60AD03A1324C0F100884751 /* LayerFunViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController1.h; sourceTree = "<group>"; };
+		E60AD03B1324C0F100884751 /* LayerFunViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController1.m; sourceTree = "<group>"; };
+		E60AD03C1324C0F100884751 /* LayerFunViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerFunViewController1.xib; sourceTree = "<group>"; };
+		E60AD03F1324C49500884751 /* LayerFunViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController2.h; sourceTree = "<group>"; };
+		E60AD0401324C49500884751 /* LayerFunViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController2.m; sourceTree = "<group>"; };
+		E60AD0411324C49500884751 /* LayerFunViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerFunViewController2.xib; sourceTree = "<group>"; };
+		E60AD0441324C7DC00884751 /* LayerFunViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController3.h; sourceTree = "<group>"; };
+		E60AD0451324C7DC00884751 /* LayerFunViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController3.m; sourceTree = "<group>"; };
+		E60AD0471324C7E600884751 /* LayerFunViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerFunViewController3.xib; sourceTree = "<group>"; };
+		E60AD0491324C92800884751 /* LayerFunViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController4.h; sourceTree = "<group>"; };
+		E60AD04A1324C92800884751 /* LayerFunViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController4.m; sourceTree = "<group>"; };
+		E60AD04B1324C92800884751 /* LayerFunViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerFunViewController5.h; sourceTree = "<group>"; };
+		E60AD04C1324C92800884751 /* LayerFunViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerFunViewController5.m; sourceTree = "<group>"; };
+		E60AD04F1324C93600884751 /* LayerFunViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerFunViewController4.xib; sourceTree = "<group>"; };
+		E60AD0501324C93600884751 /* LayerFunViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerFunViewController5.xib; sourceTree = "<group>"; };
+		E60AD0531324CC2800884751 /* hi_perspective_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hi_perspective_icon.png; sourceTree = "<group>"; };
+		E60AD0541324CC2800884751 /* large_picture_distance_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_picture_distance_icon.png; sourceTree = "<group>"; };
+		E60AD0551324CC2800884751 /* low_perspective_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = low_perspective_icon.png; sourceTree = "<group>"; };
+		E60AD0561324CC2800884751 /* small_picture_distance_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_picture_distance_icon.png; sourceTree = "<group>"; };
+		E60AD0571324CC2800884751 /* 45_angle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 45_angle_icon.png; sourceTree = "<group>"; };
+		E60AD0581324CC2800884751 /* vertical_angle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical_angle_icon.png; sourceTree = "<group>"; };
+		E60AD05F1324D26200884751 /* LayerFun_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LayerFun_Icon.png; sourceTree = "<group>"; };
+		E60AD0611324D26A00884751 /* LayerFun_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LayerFun_Icon@2x.png"; sourceTree = "<group>"; };
+		E60AD0631324D27500884751 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E60AD0671324D37800884751 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6B04EBC1354197D0043F539 /* Layers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layers.png; sourceTree = "<group>"; };
+		E6B04EBD1354197D0043F539 /* Layers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layers@2x.png"; sourceTree = "<group>"; };
+		E6E6AA141324EE40009BFC97 /* LayerFun_Instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LayerFun_Instructions.png; sourceTree = "<group>"; };
+		E6E6AA151324EE40009BFC97 /* LayerFun_Instructions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LayerFun_Instructions@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +121,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60ACFFE13243B0900884751 /* AVFoundation.framework in Frameworks */,
+				E60ACF8213242C6700884751 /* CoreGraphics.framework in Frameworks */,
+				E60ACFFF13243B0900884751 /* CoreMedia.framework in Frameworks */,
+				E60AD00013243B0900884751 /* CoreVideo.framework in Frameworks */,
+				E60AD00113243B0900884751 /* QuartzCore.framework in Frameworks */,
 				E60ACF7E13242C6700884751 /* UIKit.framework in Frameworks */,
 				E60ACF8013242C6700884751 /* Foundation.framework in Frameworks */,
-				E60ACF8213242C6700884751 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +137,10 @@
 		E60ACF6E13242C6700884751 = {
 			isa = PBXGroup;
 			children = (
+				E60AD0671324D37800884751 /* Default.png */,
+				E60AD0631324D27500884751 /* Default@2x.png */,
+				E60AD0611324D26A00884751 /* LayerFun_Icon@2x.png */,
+				E60AD05F1324D26200884751 /* LayerFun_Icon.png */,
 				E60ACF8313242C6700884751 /* Layers */,
 				E60ACF7C13242C6700884751 /* Frameworks */,
 				E60ACF7A13242C6700884751 /* Products */,
@@ -72,6 +161,11 @@
 				E60ACF7D13242C6700884751 /* UIKit.framework */,
 				E60ACF7F13242C6700884751 /* Foundation.framework */,
 				E60ACF8113242C6700884751 /* CoreGraphics.framework */,
+				E60ACFF913243B0800884751 /* AVFoundation.framework */,
+				E60ACFFA13243B0800884751 /* CoreGraphics.framework */,
+				E60ACFFB13243B0800884751 /* CoreMedia.framework */,
+				E60ACFFC13243B0800884751 /* CoreVideo.framework */,
+				E60ACFFD13243B0900884751 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,11 +175,12 @@
 			children = (
 				E60ACF8C13242C6700884751 /* LayersAppDelegate.h */,
 				E60ACF8D13242C6700884751 /* LayersAppDelegate.m */,
-				E60ACF8F13242C6700884751 /* MainWindow.xib */,
-				E60ACF9213242C6700884751 /* RootViewController.h */,
-				E60ACF9313242C6700884751 /* RootViewController.m */,
-				E60ACF9513242C6700884751 /* RootViewController.xib */,
+				E60ACF9213242C6700884751 /* LayersRootViewController.h */,
+				E60ACF9313242C6700884751 /* LayersRootViewController.m */,
+				E60AD0271324B7B600884751 /* Layer View Controllers */,
+				E60ACFF51324381700884751 /* Artwork */,
 				E60ACF8413242C6700884751 /* Supporting Files */,
+				E60ACF9D13242E7200884751 /* Xib's */,
 			);
 			path = Layers;
 			sourceTree = "<group>";
@@ -99,6 +194,64 @@
 				E60ACF8A13242C6700884751 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E60ACF9D13242E7200884751 /* Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				E60ACF8F13242C6700884751 /* MainWindow.xib */,
+				E60ACF9513242C6700884751 /* LayersRootViewController.xib */,
+				E60AD0241324A3AD00884751 /* LayerLessonsTableViewCell.xib */,
+				E60AD03C1324C0F100884751 /* LayerFunViewController1.xib */,
+				E60AD0411324C49500884751 /* LayerFunViewController2.xib */,
+				E60AD0471324C7E600884751 /* LayerFunViewController3.xib */,
+				E60AD04F1324C93600884751 /* LayerFunViewController4.xib */,
+				E60AD0501324C93600884751 /* LayerFunViewController5.xib */,
+				E60ACFE91324380500884751 /* LayerFunViewController6.xib */,
+			);
+			name = "Xib's";
+			sourceTree = "<group>";
+		};
+		E60ACFF51324381700884751 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				E6B04EBC1354197D0043F539 /* Layers.png */,
+				E6B04EBD1354197D0043F539 /* Layers@2x.png */,
+				E6E6AA141324EE40009BFC97 /* LayerFun_Instructions.png */,
+				E6E6AA151324EE40009BFC97 /* LayerFun_Instructions@2x.png */,
+				E60ACFE71324380500884751 /* boys_frame.png */,
+				E60ACFE81324380500884751 /* boys_frame@2x.png */,
+				E60ACFEA1324380500884751 /* Steve.png */,
+				E60ACFEB1324380500884751 /* Steve@2x.png */,
+				E60ACFEC1324380500884751 /* TV_Test_Pattern.png */,
+				E60ACFED1324380500884751 /* TV_Test_Pattern@2x.png */,
+				E60AD0531324CC2800884751 /* hi_perspective_icon.png */,
+				E60AD0541324CC2800884751 /* large_picture_distance_icon.png */,
+				E60AD0551324CC2800884751 /* low_perspective_icon.png */,
+				E60AD0561324CC2800884751 /* small_picture_distance_icon.png */,
+				E60AD0571324CC2800884751 /* 45_angle_icon.png */,
+				E60AD0581324CC2800884751 /* vertical_angle_icon.png */,
+			);
+			name = Artwork;
+			sourceTree = "<group>";
+		};
+		E60AD0271324B7B600884751 /* Layer View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E60AD03A1324C0F100884751 /* LayerFunViewController1.h */,
+				E60AD03B1324C0F100884751 /* LayerFunViewController1.m */,
+				E60AD03F1324C49500884751 /* LayerFunViewController2.h */,
+				E60AD0401324C49500884751 /* LayerFunViewController2.m */,
+				E60AD0441324C7DC00884751 /* LayerFunViewController3.h */,
+				E60AD0451324C7DC00884751 /* LayerFunViewController3.m */,
+				E60AD0491324C92800884751 /* LayerFunViewController4.h */,
+				E60AD04A1324C92800884751 /* LayerFunViewController4.m */,
+				E60AD04B1324C92800884751 /* LayerFunViewController5.h */,
+				E60AD04C1324C92800884751 /* LayerFunViewController5.m */,
+				E60ACFF61324384600884751 /* LayerFunViewController6.h */,
+				E60ACFF71324384600884751 /* LayerFunViewController6.m */,
+			);
+			name = "Layer View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +280,7 @@
 		E60ACF7013242C6700884751 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = PortableFrontier;
 			};
 			buildConfigurationList = E60ACF7313242C6700884751 /* Build configuration list for PBXProject "Layers" */;
@@ -153,7 +307,34 @@
 			files = (
 				E60ACF8813242C6700884751 /* InfoPlist.strings in Resources */,
 				E60ACF9113242C6700884751 /* MainWindow.xib in Resources */,
-				E60ACF9713242C6700884751 /* RootViewController.xib in Resources */,
+				E60ACF9713242C6700884751 /* LayersRootViewController.xib in Resources */,
+				E60ACFEE1324380500884751 /* boys_frame.png in Resources */,
+				E60ACFEF1324380500884751 /* boys_frame@2x.png in Resources */,
+				E60ACFF01324380500884751 /* LayerFunViewController6.xib in Resources */,
+				E60ACFF11324380500884751 /* Steve.png in Resources */,
+				E60ACFF21324380500884751 /* Steve@2x.png in Resources */,
+				E60ACFF31324380500884751 /* TV_Test_Pattern.png in Resources */,
+				E60ACFF41324380500884751 /* TV_Test_Pattern@2x.png in Resources */,
+				E60AD0261324A3AE00884751 /* LayerLessonsTableViewCell.xib in Resources */,
+				E60AD03E1324C0F100884751 /* LayerFunViewController1.xib in Resources */,
+				E60AD0431324C49500884751 /* LayerFunViewController2.xib in Resources */,
+				E60AD0481324C7E600884751 /* LayerFunViewController3.xib in Resources */,
+				E60AD0511324C93600884751 /* LayerFunViewController4.xib in Resources */,
+				E60AD0521324C93600884751 /* LayerFunViewController5.xib in Resources */,
+				E60AD0591324CC2800884751 /* hi_perspective_icon.png in Resources */,
+				E60AD05A1324CC2800884751 /* large_picture_distance_icon.png in Resources */,
+				E60AD05B1324CC2800884751 /* low_perspective_icon.png in Resources */,
+				E60AD05C1324CC2800884751 /* small_picture_distance_icon.png in Resources */,
+				E60AD05D1324CC2800884751 /* 45_angle_icon.png in Resources */,
+				E60AD05E1324CC2800884751 /* vertical_angle_icon.png in Resources */,
+				E60AD0601324D26200884751 /* LayerFun_Icon.png in Resources */,
+				E60AD0621324D26B00884751 /* LayerFun_Icon@2x.png in Resources */,
+				E60AD0641324D27600884751 /* Default@2x.png in Resources */,
+				E60AD0681324D37800884751 /* Default.png in Resources */,
+				E6E6AA161324EE40009BFC97 /* LayerFun_Instructions.png in Resources */,
+				E6E6AA171324EE40009BFC97 /* LayerFun_Instructions@2x.png in Resources */,
+				E6B04EBE1354197D0043F539 /* Layers.png in Resources */,
+				E6B04EBF1354197D0043F539 /* Layers@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +347,13 @@
 			files = (
 				E60ACF8B13242C6700884751 /* main.m in Sources */,
 				E60ACF8E13242C6700884751 /* LayersAppDelegate.m in Sources */,
-				E60ACF9413242C6700884751 /* RootViewController.m in Sources */,
+				E60ACF9413242C6700884751 /* LayersRootViewController.m in Sources */,
+				E60ACFF81324384600884751 /* LayerFunViewController6.m in Sources */,
+				E60AD03D1324C0F100884751 /* LayerFunViewController1.m in Sources */,
+				E60AD0421324C49500884751 /* LayerFunViewController2.m in Sources */,
+				E60AD0461324C7DC00884751 /* LayerFunViewController3.m in Sources */,
+				E60AD04D1324C92900884751 /* LayerFunViewController4.m in Sources */,
+				E60AD04E1324C92900884751 /* LayerFunViewController5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +376,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		E60ACF9513242C6700884751 /* RootViewController.xib */ = {
+		E60ACF9513242C6700884751 /* LayersRootViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E60ACF9613242C6700884751 /* en */,
 			);
-			name = RootViewController.xib;
+			name = LayersRootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -241,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Layers/Layers-Prefix.pch";
 				INFOPLIST_FILE = "Layers/Layers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Layers/Layers-Prefix.pch";
 				INFOPLIST_FILE = "Layers/Layers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -279,6 +468,7 @@
 				E60ACF9C13242C6700884751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
